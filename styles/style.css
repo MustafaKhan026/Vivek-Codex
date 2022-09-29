@@ -1,0 +1,28 @@
+*
+{
+  border: 2px solid red;
+  margin: 5px;
+}
+body
+{
+  display: flex;
+  flex-direction: column;
+}
+.head
+{
+  display: flex;
+  flex-direction: column;
+}
+.header
+{
+  display: flex;
+  width: 600px;
+  
+}
+.header .right ol
+{
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 16px;
+}
