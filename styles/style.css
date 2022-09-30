@@ -1,28 +1,39 @@
 *
 {
-  border: 2px solid red;
-  margin: 5px;
+  /*border: 2px solid red;*/
+  margin: 3px;
 }
 body
 {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 .head
 {
   display: flex;
   flex-direction: column;
+  background-color: black;
+  color : white;
 }
 .header
 {
   display: flex;
-  width: 600px;
-  
+  justify-content: space-between;
 }
-.header .right ol
+#right ol
 {
   display: flex;
   list-style: none;
-  flex-direction: row;
+  flex-direction: row reverse;
   gap: 16px;
+}
+.headlast
+{
+  display: flex;
+}
+
+.drag
+{
+  width : 50%;
 }
