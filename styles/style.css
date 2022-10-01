@@ -8,6 +8,7 @@ body
   display: flex;
   flex-direction: column;
   margin: 0;
+  background-image: url('/Images/dragon_classical_light_luster_surface_background_16050_1280x1280.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
