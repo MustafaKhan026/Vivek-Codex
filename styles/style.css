@@ -8,7 +8,7 @@ body
   display: flex;
   flex-direction: column;
   margin: 0;
-  background: url('https://github.com/Vivek6290/Vivek-Codex/Images/dragon_classical_light_luster_surface_background_16050_1280x1280.jpg');
+  background: url('../Images/dragon_classical_light_luster_surface_background_16050_1280x1280.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
