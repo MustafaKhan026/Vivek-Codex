@@ -17,12 +17,14 @@ body
 }
 .head
 {
+  flex: 1;
   display: flex;
   flex-direction: column;
   color : white;
 }
 .header
 {
+  flex: 1;
   display: flex;
   justify-content: space-between;
 }
@@ -33,12 +35,60 @@ body
   flex-direction: row reverse;
   gap: 16px;
 }
+.logo
+{
+  width: 15vw;
+  height: auto;
+}
 .headlast
 {
+  flex: 1;
   display: flex;
+  padding-bottom: 10vw;
 }
-
 .drag
 {
   width : 50%;
 }
+a
+{
+  text-decoration: none;
+  color: whitesmoke;
+}
+h1
+{
+  font-size :10vw;
+  color: #e31e1e;
+  text-align: center;
+}
+.left p
+{
+  font-weight: 500;
+}
+button
+{
+  background-color : #3d03fc;
+  color :#f7faf8;
+  width : 20vw;
+}
+.body1,.body2,.footer
+{
+  flex: 1;
+}
+@media only screen and (min-width : 640px)
+{
+  .left p 
+  {
+    font-size : 3vw;
+  }
+  button
+  {
+    width : 15vw;
+  }
+  .logo
+  {
+  width: 15vw;
+  height: auto;
+  }
+}
+  
